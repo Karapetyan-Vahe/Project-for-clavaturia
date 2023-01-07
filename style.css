@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent_1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+#mini_key{
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.parent_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    height: 300px;
+    width: 840px;
+}
+.dem,.hetev{
+    cursor: pointer;
+}
+#xach{ 
+      display: flex;
+      width: 97%;
+      justify-content: flex-end; 
+      cursor: grab;
+}
+#carde{
+    display: flex;
+}
+.space{
+    width: 437px;
+    height: 60px;
+    background-color: #646665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    margin-left: -0.2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#one{
+    display: none;
+}
+#num{
+    width: 60px;
+    height: 60px;
+    background-color:grey;
+}
+.guyn{
+    width: 77px;
+    height: 61px;
+    background-color:#282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.child{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-inline-start: 14px;
+}
+.child_1{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.child1{
+    display: flex;
+    width: 100%; 
+    justify-content: flex-end;
+}
+.child_3{
+    display: flex;
+    width: 99.6%;
+    justify-content: flex-end;
+}
+.mec{
+    width: 70px;
+    height: 61px;
+    background-color:#282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: 0px;   
+    color: #fff;
+    cursor: pointer;
+}
+.poqr{
+    width: 68px;
+    height: 61px;
+    background-color: #282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: -2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.tver{
+    width: 76px;
+    height: 61px;
+    background-color: #282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ctrl{
+    width: 70px;
+    height: 61px;
+    background-color: #282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: -1px;
+    color: #fff;
+    cursor: pointer;
+}
+.smile{
+    width: 69px;
+    height: 61px;
+    background-color: #282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.backspace{
+    width: 139px;
+    height: 60px;
+    background-color:#646665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enter{
+    width: 120px;
+    height: 60px;
+    background-color:#646665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    color: #fff;
+    margin-inline-end: 2%;    
+    cursor: pointer;
+}
+
+.shift{
+    width: 69px;
+    height: 62px;
+    background-color:#282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    margin-left: 3px;
+
+    cursor: pointer;
+}
+
+
+
+.shift_2{
+    width: 73px;
+    height: 62px;
+    background-color:#282828;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 3px; */
+    margin-left: 2px;
+    cursor: pointer;
+}
+    .hetev{
+    transform: rotateY(180deg);
+}
+   .hetev, .dem{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    line-height: 80px;
+    color: white;
+}
+
+.arj_tox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 57px;
+    background-color: #646665;
+    margin: 3px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    color: white;
+    font-weight: bold;
+} 
+
+div{
+    text-align: center;
+}
